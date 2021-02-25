@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SHOPPING CRADLE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<ul>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="https://shoppingcradle.com/shop">Shop</a></li>
+				<li><a href="https://shoppingcradle.com/cart">Cart</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#enquiry">Contact</a></li>			
+			</ul>
+			
+		<div class="search">
+			<form role="search" action="/" class="searchform" id="searchform" method="get"> 
+ 			<label class="screen-reader-text" for="s"></label>
+			 <input type="text" placeholder="Search products..." id="s" value="" name="s" class="field" size="50"> 
+ 			<input type="submit" value="Search" id="searchsubmit" class="submit-button"> 
+			</form>
+		</div>
+		
+		<div class="button">
+			<a href="#enquiry" class="btn">Enquiry</a>
+			<a href="https://shoppingcradle.com/my-account/" class="btn">Login / Signup</a>	
+		</div> 
+	</header>
+		
+	<div id="enquiry" class="contact-title">
+		<h1>Enquiry section</h1>
+		<h3>We are always here to help you !</h3>
+	</div>
+
+	<div class="contact-form">
+		<form id="contact-form" method="post" action="">
+		<input name="name" type="text" class="form-control" placeholder="Your name" required>
+		<br>
+		<input name="email" type="email" class="form-control" placeholder="Your Email" required>
+		<br>
+		
+		<textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+		<input type="submit" class="form-control submit" value="SUBMIT ENQUIRY">
+		
+		<br><br>
+		<hr color="white" style="height: 2px;">
+		<br><br><br>
+	
+
+</body>
+</html>
